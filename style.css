@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    color:violet;
+}
+
+header {
+    background-color:black;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 0 auto;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+
+.hero-section .cta {
+    padding: 20px;
+    background-color:black;
+    color:violet ;
+    text-decoration: none;
+}
+
+.hero-section .cta:hover {
+    background-color:black;
+}
+
+/* About Section */
+.about-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: auto;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 20px;
+    background:black ;
+    text-align: center;
+}
+
+.projects-section .project {
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.projects-section .project img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Links Section */
+.links-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.links-section .links-content {
+    margin: 0 auto;
+}
+
+.links-section a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    
+}
+
+.links-section a:hover {
+    text-decoration: underline;
+    
+}
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label {
+    margin: 0 auto;
+    display: block;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: black;
+}
+
+#contact{
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color:violet;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: violet;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Courses Section */
+.courses-section {
+    padding: 20px;
+    background: purple;
+    text-align: center;
+}
+
+.courses-section .courses-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.courses-section .course {
+    margin-bottom: 0 auto;
+}
+
+.courses-section .course h3 {
+    margin-bottom: 0 auto;
+}
+
+.courses-section .course p {
+    margin: 0 auto;
+}
